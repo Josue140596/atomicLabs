@@ -1,0 +1,28 @@
+//Fonts
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap');
+//Partials
+    //Styles BASE
+    @import "./base/base";
+    //Styles Settings Variables Colores
+    @import "./base/settings";
+    
+
+
+    //Styles de Routers
+    @import "./components/routers/AppRouter.scss";
+    //Styles de mis componentes PaginaPrincipal
+    @import "./components/PaginaPrincipal/PaginaPrincipal.scss";
+    @import "./components/PaginaPrincipal/Bienvenida.scss";
+    @import "./components/PaginaPrincipal/Somos.scss";
+    @import "./components/PaginaPrincipal/TrabajarConNosotros.scss";
+    @import "./components/PaginaPrincipal/PorqueAtomic.scss";
+    
+
+    //Styles de mis componentes Quiero saber más
+    //Styles de mis componentes UI
+    @import "./components/UI/Header.scss";
+    @import "./components/UI/Footer.scss";
+    @import "./components/UI/Cards.scss";
+    @import "./components/UI/ButtonPrimary.scss";
+    @import "./components/UI/Table.scss";
+

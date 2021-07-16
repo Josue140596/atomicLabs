@@ -1,0 +1,28 @@
+.container-img-title-btn{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.proceso-pruebas{
+    display: flex;
+    height: 70px;
+    width: 100%;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    color: $secundary-color;
+    text-align: center;
+  
+
+    span{
+        width: 120px;
+    }
+    i{
+        color: $primary-color;
+        font-size: 25px;
+    }
+}

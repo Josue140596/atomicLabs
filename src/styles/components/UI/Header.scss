@@ -1,0 +1,50 @@
+header{
+    grid-area: 1 / 1 / 2 / 2;
+  
+    height: 120px;
+    position: absolute;
+    width: 100%;
+    z-index: 900;
+    
+}
+
+
+.content-logo {
+  
+    height: 100%;
+    img{
+        margin: 12px;
+    }
+}
+
+
+
+/*
+====Resposive=======
+*/
+
+@media only screen and (min-width: 1400px) {
+    /* For 4k: */
+  
+    .content-logo {
+        margin: 0px 400px 0px ;
+     
+       
+    }
+  }
+  @media only screen and (max-width: 800px) {
+    /* For tablets: */
+  
+  
+  }
+  @media only screen and (max-width: 500px) {
+    /* For mobile phones: */
+    
+   
+  
+  
+   
+  
+  
+  }
+
