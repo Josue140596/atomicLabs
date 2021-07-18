@@ -17,12 +17,19 @@
     @import "./components/PaginaPrincipal/TrabajarConNosotros.scss";
     @import "./components/PaginaPrincipal/PorqueAtomic.scss";
     
-
+    
     //Styles de mis componentes Quiero saber más
+    @import "./components/QuieroSaberMas/SaberMas.scss";
+    @import "./components/QuieroSaberMas/TeQueremosConocer.scss";
+    @import "./components/QuieroSaberMas/LayoutLoader.scss";
+    @import "./components/QuieroSaberMas/DatosEnviados.scss";
+
+
     //Styles de mis componentes UI
     @import "./components/UI/Header.scss";
     @import "./components/UI/Footer.scss";
     @import "./components/UI/Cards.scss";
     @import "./components/UI/ButtonPrimary.scss";
     @import "./components/UI/Table.scss";
+    @import "./components/UI/LineaDeProgreso.scss";
 

@@ -88,7 +88,7 @@
 
 .saber-mas-arrow{
     font-size: 25px;
-    bottom: 40px;
+    bottom: 10px;
     margin: auto;
     width: 100%;
     display: flex;
@@ -96,6 +96,9 @@
     text-align: center;
     flex-direction: column;
     align-items: center;
+    animation-name: animar;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
 
     
     div{
@@ -107,7 +110,25 @@
         display: flex;
         justify-content: center;
         align-items: center;
+       
     }
+
+
+    @keyframes animar{
+        0% {
+       
+          opacity: 0.9;
+        }
+        50% {
+       
+          opacity: 0.4;
+        }
+        
+        100% {
+            opacity: 1;
+          
+        }
+      }
     span{
         color: #fcfcfc;
         font-size: 18px;

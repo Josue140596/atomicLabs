@@ -11,9 +11,27 @@
     margin: 0px 70px 0px ;
 }
 
+a{
+    text-decoration: none;
+    font-weight: bold;
+ 
+}
+
+.styles-link-regresar{
+    color: white !important;
+}
 
 
-
+.checkStyle{
+    width: 51px !important;
+}
+.btn-terminos{
+    text-decoration: underline !important;
+    margin-bottom: 27px !important;
+    background: transparent !important;
+    position: static !important;
+    width: 334px !important;
+}
 .pointer{
     cursor: pointer;
 }

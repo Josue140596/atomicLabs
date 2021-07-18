@@ -1,0 +1,10 @@
+.content-loader{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    color: $secundary-color;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../../../assets/second-background.png");
+}

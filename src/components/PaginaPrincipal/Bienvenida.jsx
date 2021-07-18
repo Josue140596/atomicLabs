@@ -4,10 +4,17 @@ import React from 'react';
 import { ArrowSaberMas } from './ArrowSaberMas'
 
 
+
+
 //Imagenes
 import img_austro from '../../assets/Group 4032.png'
 import img_austro_small from '../../assets/Group 4013.png'
 import { ButtonPrimary} from '../UI/Buttons';
+
+
+
+
+
 
 export const Bienvenida = () => {
     return (

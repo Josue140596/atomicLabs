@@ -1,6 +1,7 @@
 import React from 'react';
 
 import img_trabajar from '../../assets/Group 4040.png'
+import { ButtonPrimary } from '../UI/Buttons';
 
 export const TrabajarConNosotros = () => {
     return (
@@ -27,7 +28,7 @@ export const TrabajarConNosotros = () => {
                 </div>
 
 
-                <button className="btn-primary pointer">!Quiero ser parte¡</button>
+                <ButtonPrimary/>
 
             </div>
         </section>
